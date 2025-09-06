@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.2.0">
   <diagram name="Página-1" id="LVxENaEav2FPMvkR2sTb">
-    <mxGraphModel dx="1739" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1910" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="9sZPdOFYszLbej_9wSq5-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="9sZPdOFYszLbej_9wSq5-4" vertex="1">
           <mxGeometry y="60" width="210" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="9sZPdOFYszLbej_9wSq5-7" value="&lt;div&gt;+ method getEdad(): Integer&lt;/div&gt;&lt;div&gt;+ method esDestacado(): boolean&lt;/div&gt;&lt;div&gt;+ method getInteligencia(): Integer&lt;/div&gt;&lt;div&gt;+´method getPotencia(): Integer&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="9sZPdOFYszLbej_9wSq5-4" vertex="1">
+        <mxCell id="9sZPdOFYszLbej_9wSq5-7" value="&lt;div&gt;+ method getEdad(): Integer&lt;/div&gt;&lt;div&gt;+ method esDestacado(): boolean&lt;/div&gt;&lt;div&gt;+ method getInteligencia(): Integer&lt;/div&gt;&lt;div&gt;+´method getPotencia(): Integer = 20&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="9sZPdOFYszLbej_9wSq5-4" vertex="1">
           <mxGeometry y="68" width="210" height="100" as="geometry" />
         </mxCell>
         <mxCell id="9sZPdOFYszLbej_9wSq5-8" value="Atleta" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -50,6 +50,24 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="170" y="310" as="sourcePoint" />
             <mxPoint x="205" y="263" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cywmzZSHZNw3OwEjGPr--18" value="Reglas Atleta:&lt;div&gt;-getPotencia(): potencia + (masaMuscular * cantTecnicasConocidas)&lt;/div&gt;&lt;div&gt;-esDestacado(): super() or cantTecnicasConocidas &amp;gt; 5&lt;/div&gt;&lt;div&gt;-entrenar(cantDias): masaMuscular += floor(dias/5)&lt;/div&gt;&lt;div&gt;-aprenderTecnica(): cantTecnicasConocidas + 1&lt;/div&gt;" style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="90" width="390" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="cywmzZSHZNw3OwEjGPr--21" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="cywmzZSHZNw3OwEjGPr--18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="300" as="sourcePoint" />
+            <mxPoint x="270" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cywmzZSHZNw3OwEjGPr--22" value="Reglas Persona:&lt;div&gt;-inteligencia = 12 si 20&amp;lt;= edad &amp;lt;= 40, else 8&lt;/div&gt;&lt;div&gt;-esDestacado() :&amp;nbsp; 25 == edad or 35 edad&lt;/div&gt;" style="shape=note;size=15;align=left;spacingLeft=10;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="414" y="80" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cywmzZSHZNw3OwEjGPr--23" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=1.007;entryY=0.44;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.443;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="cywmzZSHZNw3OwEjGPr--22" target="9sZPdOFYszLbej_9wSq5-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="565" y="280" as="sourcePoint" />
+            <mxPoint x="390" y="110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
