@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.4">
   <diagram name="Página-1" id="o_vclZa8i1B72Egsuipd">
-    <mxGraphModel dx="1932" dy="1642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2219" dy="1725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -61,7 +61,7 @@
         <mxCell id="Htsk9jUAKjOqGIlY0f94-14" value="nombre" style="ellipse;whiteSpace=wrap;html=1;align=center;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="70" y="-110" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Htsk9jUAKjOqGIlY0f94-23" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;" edge="1" parent="1" source="Htsk9jUAKjOqGIlY0f94-15" target="Htsk9jUAKjOqGIlY0f94-2">
+        <mxCell id="Htsk9jUAKjOqGIlY0f94-23" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;" edge="1" parent="1" source="Htsk9jUAKjOqGIlY0f94-101" target="Htsk9jUAKjOqGIlY0f94-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Htsk9jUAKjOqGIlY0f94-15" value="apellido" style="ellipse;whiteSpace=wrap;html=1;align=center;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
@@ -177,13 +177,11 @@
         <mxCell id="Htsk9jUAKjOqGIlY0f94-55" value="nombre" style="ellipse;whiteSpace=wrap;html=1;align=center;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="550" y="-140" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="Htsk9jUAKjOqGIlY0f94-62" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;" edge="1" parent="1" source="Htsk9jUAKjOqGIlY0f94-56">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="660" y="-20" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="Htsk9jUAKjOqGIlY0f94-104" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;" edge="1" parent="1" source="Htsk9jUAKjOqGIlY0f94-56" target="Htsk9jUAKjOqGIlY0f94-72">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Htsk9jUAKjOqGIlY0f94-56" value="fechaDeInscripcion" style="ellipse;whiteSpace=wrap;html=1;align=center;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="640" y="-150" width="110" height="30" as="geometry" />
+          <mxGeometry x="730" y="50" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Htsk9jUAKjOqGIlY0f94-63" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;" edge="1" parent="1" source="Htsk9jUAKjOqGIlY0f94-61" target="Htsk9jUAKjOqGIlY0f94-38">
           <mxGeometry relative="1" as="geometry" />
@@ -221,7 +219,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Htsk9jUAKjOqGIlY0f94-73" value="fecha" style="ellipse;whiteSpace=wrap;html=1;align=center;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="660" y="320" width="100" height="40" as="geometry" />
+          <mxGeometry x="650" y="285" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Htsk9jUAKjOqGIlY0f94-77" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;" edge="1" parent="1" source="Htsk9jUAKjOqGIlY0f94-75" target="Htsk9jUAKjOqGIlY0f94-73">
           <mxGeometry relative="1" as="geometry" />
@@ -290,7 +288,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Htsk9jUAKjOqGIlY0f94-97" value="pago" style="ellipse;whiteSpace=wrap;html=1;align=center;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="780" y="105" width="60" height="30" as="geometry" />
+          <mxGeometry x="840" y="120" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Htsk9jUAKjOqGIlY0f94-105" value="" style="edgeStyle=none;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=none;" edge="1" parent="1" source="Htsk9jUAKjOqGIlY0f94-15" target="Htsk9jUAKjOqGIlY0f94-101">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="-80" as="sourcePoint" />
+            <mxPoint x="150" y="-20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Htsk9jUAKjOqGIlY0f94-101" value="MER&lt;div&gt;Jugador(&lt;u&gt;idJugador&lt;/u&gt;, dni, nombre, apellido, fechaDeNacimiento, idEquipo_fk)&lt;/div&gt;&lt;div&gt;Federado(idJugador_fk, idClub_fk, idJugador_fk)&lt;/div&gt;&lt;div&gt;NoFederado(idJugador_fk, ocupacion, direccion_cp, direccion_calle, direccion_numero, idJugador_fk)&lt;/div&gt;&lt;div&gt;Club(idClub, nombre)&lt;/div&gt;&lt;div&gt;Equipo(idEquipo, nombre)&lt;/div&gt;&lt;div&gt;Color(idColor, nombre, idEquipo_fk)&lt;/div&gt;&lt;div&gt;Torneo(idTorneo, cantEquipos, premio, fecha_inicio, fecha_final)&lt;/div&gt;&lt;div&gt;Equipo_Torneo(idEquipo_Torneo, idEquipo_fk, idTorneo_fk, fechaDeInscripcion)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=11;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-210" y="-140" width="590" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
